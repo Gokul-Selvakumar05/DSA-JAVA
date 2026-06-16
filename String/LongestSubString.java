@@ -1,6 +1,6 @@
-package Arrays.String;
+package String;
 
-public class LongestSubstring {
+public class LongestSubString {
     public int lengthOfLongestSubstring(String s) {
 
         int max = 0;
@@ -23,7 +23,7 @@ public class LongestSubstring {
     
     public static void main(String[] args) {
         String s = "abcbacbaa";
-        LongestSubstring ls = new LongestSubstring();
+        LongestSubString ls = new LongestSubString();
         System.out.print(ls.lengthOfLongestSubstring(s));
     
     }
